@@ -34,7 +34,7 @@ public:
     }
 
     void set(int i, int v, int x, int sl, int sr)
-    { //set index with value o(log n)
+    { 
         if (sr == sl)
         {
             minis[x] = v;
