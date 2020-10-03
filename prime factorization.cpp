@@ -15,7 +15,7 @@ vector<pair<int, int>> PrimeFactors(int n) {
             temp.push_back({i, cnt});
 
     }
-    if (n > 0)temp.push_back({n, 1});
+    if (n > 1)temp.push_back({n, 1});
     return temp;
 }
 
