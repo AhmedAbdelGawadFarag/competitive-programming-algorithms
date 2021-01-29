@@ -32,10 +32,10 @@ public:
 
         if (size[a] > size[b]) {
             parent[b] = a;
-            size[a] += b;
+            size[a] += size[b];
         } else {
             parent[a] = b;
-            size[b] += a;
+            size[b] += size[a];
         }
 
     }
@@ -45,8 +45,8 @@ public:
 int main() {
     dsu d(5);//intalize with 5 elemnt
     int u, v;//node u and node v
+    cin >> u >> v;
     if (d.sameComponent(u, v) == false)//if there is no path form u to v then join them
         d.join(u, v);
-
 
 }
