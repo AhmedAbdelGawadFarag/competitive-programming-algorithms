@@ -53,6 +53,6 @@ int main() {
     }
     int d;
     cin >> d;
-    cout << d << endl;
+    cout << summ[d] << endl;
 
 }
