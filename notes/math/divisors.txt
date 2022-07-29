@@ -1,0 +1,8 @@
+
+1- If some natural number is divisible by two relatively prime numbers p and q,
+then it is divisible by their product pq.
+
+2- If the number pA is divisible by q, where p and q are relatively
+prime, then A is also divisible by q.
+
+3-
