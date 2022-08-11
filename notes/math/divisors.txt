@@ -1,8 +1,23 @@
 
-1- If some natural number is divisible by two relatively prime numbers p and q,
-then it is divisible by their product pq.
+1-  If some natural number is divisible by two relatively prime numbers p and q,
+    then it is divisible by their product pq.
 
-2- If the number pA is divisible by q, where p and q are relatively
-prime, then A is also divisible by q.
+2-  If the number pA is divisible by q, where p and q are relatively
+    prime, then A is also divisible by q.
 
-3-
+3-  If n = p ^ a * q ^ c  and p and q are prime numbers the number of divisors = (a+1) * (c+1)
+
+4-  Given the numbers A = 2^3 * 7 and B = 2^5 * 9
+    GCD(A,B) = 2^3
+
+5-  Given the numbers A = 2^3 * 7 and B = 2^5 * 9
+    LCM(A,B) = 2^5 * 7 * 9 (you take the bigger power of each prime)
+
+6-  if a number has an odd number of divisors, then it is a
+    perfect square and vice versa.
+    ex: 25 -------------->  5^2 so it has 3 divisors
+
+7- a composite number is a number that has more than 2 divisors
+
+
+
